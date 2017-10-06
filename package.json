@@ -1,0 +1,20 @@
+{
+  "name": "luhn",
+  "version": "1.0.0",
+  "description": "Checks if string containing numbers is a Luhn number",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jon Gaspar",
+  "license": "ISC"
+}
