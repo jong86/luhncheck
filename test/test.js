@@ -1,7 +1,7 @@
 var assert = require("chai").assert;
 var isLuhn = require("../index");
 
-describe("Palindromes", function() {
+describe("Luhn", function() {
   it("should return true if string is Luhn generated.", function() {
     var string = "1234567812345670";
     var result = isLuhn(string);
